@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammad Taha | Frontend Developer &amp; Software Engineering Student</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Muhammad Taha is a Fresher Frontend Developer skilled in HTML5, CSS3, JavaScript and Bootstrap 5, currently studying Software Engineering (ACCP) at Aptech and learning React.js &amp; Laravel. Open to internships and junior frontend roles.">
+  <meta name="keywords" content="Muhammad Taha, Frontend Developer, Fresher Frontend Developer, HTML CSS JavaScript Developer, Bootstrap Developer, Aptech ACCP, React Js Learner, Junior Web Developer Portfolio">
+  <meta name="author" content="Muhammad Taha">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://muhammadtaha.dev/">
+
+  <!-- Open Graph / social preview -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Muhammad Taha | Frontend Developer">
+  <meta property="og:description" content="Fresher Frontend Developer skilled in HTML5, CSS3, JavaScript &amp; Bootstrap 5. Open to internships and junior frontend roles.">
+  <meta property="og:image" content="assets/images/favicon.svg">
+  <meta name="theme-color" content="#060911">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <!-- Preconnects for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+
+  <!-- Fonts: Space Grotesk (display), Inter (body), JetBrains Mono (code/eyebrow) -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Custom stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Structured data for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Muhammad Taha",
+    "jobTitle": "Frontend Developer",
+    "description": "Fresher Frontend Developer skilled in HTML5, CSS3, JavaScript and Bootstrap 5.",
+    "knowsAbout": ["HTML5", "CSS3", "JavaScript", "Bootstrap 5", "Responsive Web Design", "React.js", "Laravel", "UI/UX Design"],
+    "alumniOf": {
+      "@type": "EducationalOrganization",
+      "name": "Aptech"
+    }
+  }
+  </script>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="120" tabindex="0">
+
+  <!-- ============ PRELOADER ============ -->
+  <div id="preloader" aria-hidden="true">
+    <div class="loader-box">
+      <span class="loader-prompt">$</span>
+      <span class="loader-text" id="loaderText"></span><span class="loader-cursor">&#8203;</span>
+    </div>
+  </div>
+
+  <!-- ============ SKIP LINK (accessibility) ============ -->
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- ============ NAVBAR ============ -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNav" aria-label="Primary navigation">
+    <div class="container">
+      <a class="navbar-brand" href="#home">
+        <span class="brand-mark">MT<span class="brand-dot">.</span></span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+        aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="toggler-icon"><i class="bi bi-list"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+            <a href="Taha_Cv.pdf" download="Muhammad_Taha_CV.pdf" class="btn btn-gradient btn-sm px-3">Resume</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main-content">
+    <!-- ============ HERO SECTION ============ -->
+    <header class="hero" id="home">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="container">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-6 order-2 order-lg-1">
+            <div class="status-chip reveal" style="--delay:.05s">
+              <span class="status-dot"></span> Available for Internships &amp; Junior Roles
+            </div>
+            <h1 class="hero-title reveal" style="--delay:.1s">
+              Hi, I'm <span class="text-gradient">Muhammad Taha</span>
+            </h1>
+            <p class="hero-role reveal" style="--delay:.15s">
+              <span id="typedRole" class="typed-role"></span><span class="type-cursor" aria-hidden="true">|</span>
+            </p>
+            <p class="hero-desc reveal" style="--delay:.2s">
+              A detail-driven <strong>Frontend Developer</strong> and Software Engineering student who turns clean
+              design into fast, responsive, and accessible websites. I build with HTML5, CSS3, JavaScript and
+              Bootstrap 5 &mdash; and I'm currently leveling up with React.js,  Laravel.Php and MySql.MogoDP and UI/UX Design.
+            </p>
+            <div class="hero-actions reveal" style="--delay:.25s">
+              <a href="Taha_Cv.pdf" download="Muhammad_Taha_CV.pdf" class="btn btn-gradient btn-lg">
+                <i class="bi bi-download"></i> Download CV
+              </a>
+              <a href="#contact" class="btn btn-outline-glass btn-lg">
+                <i class="bi bi-chat-dots"></i> Contact Me
+              </a>
+            </div>
+            <div class="hero-socials reveal" style="--delay:.3s">
+              
+             <a href="https://github.com/tahafan77" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile"><i class="bi bi-github"></i></a>
+             <a href="https://www.linkedin.com/in/muhammad-taha-5043073a6?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile"><i class="bi bi-linkedin"></i></a>
+              <a href="mailto:taha8450084@gmail.com" aria-label="Send an email"><i class="bi bi-envelope"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-6 order-1 order-lg-2">
+            <div class="hero-visual reveal" style="--delay:.15s">
+              <div class="terminal-window">
+                <div class="terminal-bar">
+                  <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+                  <span class="terminal-title">developer.js</span>
+                </div>
+                <pre class="terminal-body"><code id="terminalCode"></code><span class="type-cursor" aria-hidden="true">|</span></pre>
+              </div>
+              <!-- <img src="assets/images/hero-illustration.svg" class="hero-float-illustration" alt="Illustration of a code editor and a browser preview surrounded by HTML, CSS, JavaScript and React tech chips" loading="eager" width="560" height="520"> -->
+            </div>
+          </div>
+        </div>
+
+        <a href="#about" class="scroll-indicator" aria-label="Scroll to About section">
+          <span></span>
+        </a>
+      </div>
+    </header>
+
+    <!-- ============ ABOUT SECTION ============ -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">// 01. about-me</p>
+          <h2>Getting to Know <span class="text-gradient">Me</span></h2>
+        </div>
+
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-5">
+            <div class="about-visual reveal">
+              <div class="about-visual-glow" aria-hidden="true"></div>
+              <img src="pic5-Photoroom.png" alt="Abstract illustration of a laptop with code, representing a focused frontend developer" loading="lazy" width="460" height="460">
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <h3 class="about-subtitle reveal">Frontend Developer &amp; Software Engineering Student, Karachi</h3>
+            <p class="about-text reveal" style="--delay:.05s">
+              I'm Muhammad Taha, a fresher Frontend Developer with a genuine love for building interfaces that feel
+              as good as they look. I'm currently completing my Software Engineering Diploma (ACCP) at Aptech, where
+              I've built a solid foundation in programming logic, web fundamentals and modern development practices.
+            </p>
+            <p class="about-text reveal" style="--delay:.1s">
+              My focus is on writing clean, semantic code and translating designs into pixel-accurate, fully
+              responsive websites using HTML5, CSS3, JavaScript and Bootstrap 5. I'm comfortable working with
+              Git &amp; GitHub for version control, and I'm actively expanding my skill set into React.js, Laravel
+              and Php , Mysql Our MongoDB and Node.js UI/UX Design to become a well-rounded developer.
+            </p>
+            <p class="about-text reveal" style="--delay:.15s">
+              As a fresher, I bring energy, curiosity and a strong work ethic &mdash; I'm actively seeking an
+              internship or junior frontend developer role where I can contribute, learn from experienced teams, and
+              grow into a reliable engineer.
+            </p>
+
+            <div class="row row-cols-2 row-cols-sm-4 g-3 counters-row reveal" style="--delay:.2s">
+              <div class="col">
+                <div class="counter-card glass">
+                  <span class="counter-number" data-count="2">0</span><span class="counter-plus">+</span>
+                  <p>Projects Built</p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="counter-card glass">
+                  <span class="counter-number" data-count="6">0</span>
+                  <p>Core Technologies</p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="counter-card glass">
+                  <span class="counter-number" data-count="5">0</span>
+                  <p>Skills In Progress</p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="counter-card glass">
+                  <span class="counter-number" data-count="100">0</span><span class="counter-plus">%</span>
+                  <p>Responsive Focus</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS SECTION ============ -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">// 02. skills</p>
+          <h2>My <span class="text-gradient">Skills</span> &amp; Toolbox</h2>
+          <p class="section-sub">Technologies I use confidently, plus the ones I'm actively leveling up.</p>
+        </div>
+
+        <h3 class="skills-group-title reveal"><i class="bi bi-code-slash"></i> Core Skills</h3>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="skill-card glass">
+              <div class="skill-head">
+                <span class="skill-icon"><i class="bi bi-filetype-html"></i></span>
+                <span class="skill-name">HTML5</span>
+                <span class="skill-percent">95%</span>
+              </div>
+              <div class="progress-track"><div class="progress-fill" data-width="95"></div></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal" style="--delay:.05s">
+            <div class="skill-card glass">
+              <div class="skill-head">
+                <span class="skill-icon"><i class="bi bi-filetype-css"></i></span>
+                <span class="skill-name">CSS3</span>
+                <span class="skill-percent">90%</span>
+              </div>
+              <div class="progress-track"><div class="progress-fill" data-width="90"></div></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal" style="--delay:.1s">
+            <div class="skill-card glass">
+              <div class="skill-head">
+                <span class="skill-icon"><i class="bi bi-filetype-js"></i></span>
+                <span class="skill-name">JavaScript</span>
+                <span class="skill-percent">80%</span>
+              </div>
+              <div class="progress-track"><div class="progress-fill" data-width="80"></div></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal" style="--delay:.15s">
+            <div class="skill-card glass">
+              <div class="skill-head">
+                <span class="skill-icon"><i class="bi bi-bootstrap"></i></span>
+                <span class="skill-name">Bootstrap 5</span>
+                <span class="skill-percent">90%</span>
+              </div>
+              <div class="progress-track"><div class="progress-fill" data-width="90"></div></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal" style="--delay:.2s">
+            <div class="skill-card glass">
+              <div class="skill-head">
+                <span class="skill-icon"><i class="bi bi-phone"></i></span>
+                <span class="skill-name">Responsive Web Design</span>
+                <span class="skill-percent">90%</span>
+              </div>
+              <div class="progress-track"><div class="progress-fill" data-width="90"></div></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal" style="--delay:.25s">
+            <div class="skill-card glass">
+              <div class="skill-head">
+                <span class="skill-icon"><i class="bi bi-git"></i></span>
+                <span class="skill-name">Git &amp; GitHub</span>
+                <span class="skill-percent">85%</span>
+              </div>
+              <div class="progress-track"><div class="progress-fill" data-width="85"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="skills-group-title mt-5 reveal"><i class="bi bi-rocket-takeoff"></i> Currently Learning</h3>
+        <div class="row g-4">
+          <div class="col-md-4 reveal">
+            <div class="skill-card skill-card-learning glass">
+              <div class="skill-head">
+                <span class="skill-icon"><i class="bi bi-atom"></i></span>
+                <span class="skill-name">React.js</span>
+                <span class="skill-percent">In Progress</span>
+              </div>
+              <div class="progress-track"><div class="progress-fill progress-fill-learning" data-width="45"></div></div>
+            </div>
+          </div>
+          <div class="col-md-4 reveal" style="--delay:.05s">
+            <div class="skill-card skill-card-learning glass">
+              <div class="skill-head">
+                <span class="skill-icon"><i class="bi bi-hexagon"></i></span>
+                <span class="skill-name">Laravel . Php</span>
+                <span class="skill-percent">In Progress</span>
+              </div>
+              <div class="progress-track"><div class="progress-fill progress-fill-learning" data-width="30"></div></div>
+            </div>
+          </div>
+          <div class="col-md-4 reveal" style="--delay:.1s">
+            <div class="skill-card skill-card-learning glass">
+              <div class="skill-head">
+                <span class="skill-icon"><i class="bi bi-palette"></i></span>
+                <span class="skill-name">MySql . MongoDB</span>
+                <span class="skill-percent">In Progress</span>
+              </div>
+              <div class="progress-track"><div class="progress-fill progress-fill-learning" data-width="35"></div></div>
+            </div>
+          </div>
+           <div class="col-md-4 reveal" style="--delay:.1s">
+            <div class="skill-card skill-card-learning glass">
+              <div class="skill-head">
+                <span class="skill-icon"><i class="bi bi-palette"></i></span>
+                <span class="skill-name">UI/UX Design</span>
+                <span class="skill-percent">In Progress</span>
+              </div>
+              <div class="progress-track"><div class="progress-fill progress-fill-learning" data-width="35"></div></div>
+            </div>
+          </div>
+           <div class="col-md-4 reveal" style="--delay:.1s">
+            <div class="skill-card skill-card-learning glass">
+              <div class="skill-head">
+                <span class="skill-icon"><i class="bi bi-palette"></i></span>
+                <span class="skill-name">Node.js</span>
+                <span class="skill-percent">In Progress</span>
+              </div>
+              <div class="progress-track"><div class="progress-fill progress-fill-learning" data-width="35"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES SECTION ============ -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">// 03. services</p>
+          <h2>What I Can <span class="text-gradient">Do</span></h2>
+          <p class="section-sub">Frontend-focused services I can confidently take on as an internship or junior developer.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="service-card glass">
+              <span class="service-file">responsive-design.js</span>
+              <div class="service-icon"><i class="bi bi-phone-fill"></i></div>
+              <h3>Responsive Web Design</h3>
+              <p>Building layouts that adapt smoothly across mobile, tablet and desktop using modern CSS and Bootstrap 5 grids.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal" style="--delay:.05s">
+            <div class="service-card glass">
+              <span class="service-file">ui-implementation.js</span>
+              <div class="service-icon"><i class="bi bi-layout-text-window-reverse"></i></div>
+              <h3>UI Implementation</h3>
+              <p>Converting Figma/XD designs into pixel-accurate, semantic HTML and CSS with attention to spacing and detail.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal" style="--delay:.1s">
+            <div class="service-card glass">
+              <span class="service-file">bootstrap-builds.js</span>
+              <div class="service-icon"><i class="bi bi-bootstrap-fill"></i></div>
+              <h3>Bootstrap 5 Development</h3>
+              <p>Rapidly building clean, component-driven websites using the Bootstrap 5 framework and custom overrides.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal" style="--delay:.15s">
+            <div class="service-card glass">
+              <span class="service-file">landing-pages.js</span>
+              <div class="service-icon"><i class="bi bi-window-stack"></i></div>
+              <h3>Landing Page Development</h3>
+              <p>Designing and coding conversion-focused landing pages with smooth animations and clear calls to action.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal" style="--delay:.2s">
+            <div class="service-card glass">
+              <span class="service-file">maintenance.js</span>
+              <div class="service-icon"><i class="bi bi-tools"></i></div>
+              <h3>Website Maintenance</h3>
+              <p>Fixing bugs, improving performance, and keeping existing websites updated, accessible and running smoothly.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal" style="--delay:.25s">
+            <div class="service-card glass">
+              <span class="service-file">version-control.js</span>
+              <div class="service-icon"><i class="bi bi-git"></i></div>
+              <h3>Git &amp; GitHub Collaboration</h3>
+              <p>Managing code with version control best practices &mdash; branching, commits and pull requests for team projects.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS SECTION ============ -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">// 04. projects</p>
+          <h2>Featured <span class="text-gradient">Projects</span></h2>
+          <p class="section-sub">A selection of frontend projects built to practice real-world layouts, responsiveness and UI polish.</p>
+        </div>
+
+        <div class="row g-4">
+      
+          <!-- Project 1 -->
+          <div class="col-md-6 col-lg-4 reveal" style="--delay:.05s">
+            <article class="project-card glass">
+              <div class="project-thumb">
+                <img src="pic.png" alt="Preview of the Royal Skill Academy Website project showing an educational institute homepage layout" loading="lazy" width="600" height="400">
+                <div class="project-thumb-overlay">
+                  <a href="https://tahafan77.github.io/Royal-Skill-Academy/" class="btn btn-gradient btn-sm"><i class="bi bi-github"></i> GitHub</a>
+                  <!-- <a href="#" class="btn btn-outline-glass btn-sm"><i class="bi bi-box-arrow-up-right"></i> Live Demo</a> -->
+                </div>
+              </div>
+              <div class="project-body">
+                <h3>Royal Skill Academy Website</h3>
+                <p>A multi-section website for an educational academy, including admissions info, course highlights and a responsive navigation system.</p>
+                <div class="tech-tags">
+                  <span>HTML5</span><span>CSS3</span><span>Bootstrap 5</span><span>JavaScript</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="col-md-6 col-lg-4 reveal" style="--delay:.2s">
+            <article class="project-card glass">
+              <div class="project-thumb">
+                <img src="home.png" alt="Preview of the Maru Dry Fruits Website project showing a product showcase layout for a food store" loading="lazy" width="600" height="400">
+                <div class="project-thumb-overlay">
+                  <a href="https://tahafan77.github.io/Maru-Dry-Fruits/" class="btn btn-gradient btn-sm"><i class="bi bi-github"></i> GitHub</a>
+                  <!-- <a href="#" class="btn btn-outline-glass btn-sm"><i class="bi bi-box-arrow-up-right"></i> Live Demo</a> -->
+                </div>
+              </div>
+              <div class="project-body">
+                <h3> Maru Dry Fruits Website</h3>
+                <p>A warm, product-focused storefront for a dry fruits brand with category sections, offers banner and a responsive product grid.</p>
+                <div class="tech-tags">
+                  <span>HTML5</span><span>CSS3</span><span>Bootstrap 5</span><span>JavaScript</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+        
+    </section>
+
+    <!-- ============ EDUCATION SECTION ============ -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">// 05. education</p>
+          <h2>My <span class="text-gradient">Education</span></h2>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <div class="timeline">
+              <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card glass">
+                  <span class="timeline-badge">Currently Pursuing</span>
+                  <h3>Software Engineering Diploma (ACCP)</h3>
+                  <p class="timeline-org"><i class="bi bi-mortarboard"></i> Aptech</p>
+                  <p>A comprehensive, industry-oriented diploma covering programming fundamentals, web technologies,
+                    object-oriented concepts and database essentials &mdash; building the foundation for a
+                    professional career in software and frontend development.</p>
+                  <div class="tech-tags">
+                    <span>Web Development</span><span>Programming Fundamentals</span><span>OOP</span><span>Databases</span>
+                </div>
+             
+                <br><br>
+               
+      
+                  <div class="timeline-item reveal">
+              
+               
+                 <span class="timeline-badge">I have complete Intermediate</span>
+                  <h3>Intermediate (Commerce)</h3>
+                  <p class="timeline-org"><i class="bi bi-mortarboard"></i> Degree College</p>
+                  <p>I chose Commerce because I was interested in business, accounting, and understanding how organizations work. Later, I developed an interest in technology, so I started Software Engineering to build my career in software development.</p>
+                  <br><br>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+    </section>
+
+    <!-- ============ CERTIFICATES SECTION ============ -->
+    <section class="section section-alt" id="certificates">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">// 06. certificates</p>
+          <h2>Certificates &amp; <span class="text-gradient">Coursework</span></h2>
+          <p class="section-sub">Modules completed as part of my Software Engineering Diploma (ACCP) at Aptech.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3 reveal">
+            <div class="cert-card glass">
+              <div class="cert-icon"><i class="bi bi-patch-check-fill"></i></div>
+              <h3>Web Designing Fundamentals</h3>
+              <p>Aptech &mdash; ACCP</p>
+            </div>
+          </div>
+          <!-- <div class="col-md-6 col-lg-3 reveal" style="--delay:.05s">
+            <div class="cert-card glass">
+              <div class="cert-icon"><i class="bi bi-patch-check-fill"></i></div>
+              <h3>Programming Fundamentals</h3>
+              <p>Aptech &mdash; ACCP</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 reveal" style="--delay:.1s">
+            <div class="cert-card glass">
+              <div class="cert-icon"><i class="bi bi-patch-check-fill"></i></div>
+              <h3>Object-Oriented Programming</h3>
+              <p>Aptech &mdash; ACCP</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 reveal" style="--delay:.15s">
+            <div class="cert-card glass">
+              <div class="cert-icon"><i class="bi bi-patch-check-fill"></i></div>
+              <h3>Database Fundamentals</h3>
+              <p>Aptech &mdash; ACCP</p>
+            </div>
+          </div>
+        </div>
+        <p class="cert-note reveal"><i class="bi bi-info-circle"></i> Replace this section with your official certificate titles and issuer logos as you complete them.</p>
+      </div> -->
+    </section>
+
+    <!-- ============ EXPERIENCE SECTION ============ -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">// 07. experience</p>
+          <h2>Work <span class="text-gradient">Experience</span></h2>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <div class="experience-card glass reveal">
+              <div class="experience-top">
+                <div class="experience-icon"><i class="bi bi-briefcase-fill"></i></div>
+                <div>
+                  <h3>Aspiring Frontend Developer</h3>
+                  <p class="experience-meta"><i class="bi bi-calendar3"></i> Fresher &middot; Open to Internships &amp; Junior Roles</p>
+                </div>
+                <span class="experience-status">Fresher</span>
+              </div>
+              <p class="experience-desc">
+                While I haven't held a formal industry position yet, I've dedicated my time to building real,
+                functional projects and mastering the frontend fundamentals employers look for. Here's what that
+                looks like in practice:
+              </p>
+              <ul class="experience-list">
+                <li><i class="bi bi-check2-circle"></i> Built 2+ responsive websites independently using HTML5, CSS3, JavaScript and Bootstrap 5</li>
+                <li><i class="bi bi-check2-circle"></i> Practiced version control workflows with Git &amp; GitHub on personal projects</li>
+                <li><i class="bi bi-check2-circle"></i> Currently studying Software Engineering (ACCP) at Aptech to strengthen core CS fundamentals</li>
+                <li><i class="bi bi-check2-circle"></i> Self-learning React.js, Laravel.Php and MySql.MogoDP and Node.js and UI/UX Design to prepare for a full-stack-aware frontend role</li>
+                <!-- <li><i class="bi bi-check2-circle"></i> Actively seeking an internship or junior frontend developer position to apply and grow these skills</li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT SECTION ============ -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">// 08. contact</p>
+          <h2>Let's <span class="text-gradient">Work Together</span></h2>
+          <p class="section-sub">Have an internship opening or a junior frontend role? I'd love to hear from you.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-5">
+            <div class="contact-info-card glass reveal">
+              <h3>Contact Information</h3>
+              <p class="mb-4">Reach out directly, or send a message using the form &mdash; I usually respond within a day.</p>
+              <ul class="contact-info-list">
+                <li>
+                  <span class="contact-info-icon"><i class="bi bi-envelope-fill"></i></span>
+                  <div>
+                    <span class="contact-info-label">Email</span>
+                    <a href="mailto:taha8450084@gmail.com">taha8450084@gmail.com</a>
+                  </div>
+                </li>
+                <li>
+                  <span class="contact-info-icon"><i class="bi bi-telephone-fill"></i></span>
+                  <div>
+                    <span class="contact-info-label">Phone</span>
+                    <a href="tel:+92 3198997018">+92 3703235470</a>
+                  </div>
+                </li>
+                <li>
+                  <span class="contact-info-icon"><i class="bi bi-geo-alt-fill"></i></span>
+                  <div>
+                    <span class="contact-info-label">Location</span>
+                    <span>Karachi, Pakistan</span>
+                  </div>
+                </li>
+              </ul>
+              <div class="hero-socials mt-4">
+                <a href="https://github.com/tahafan77" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile"><i class="bi bi-github"></i></a>
+                <a href="linkedin.com/in/muhammad-taha-5043073a6" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <!--
+              FormSubmit backend (https://formsubmit.co/) — no server code needed.
+              Replace "muhammadtaha.dev@gmail.com" below (in both the form action AND
+              script.js) with your real email address. The first submission triggers
+              a one-time confirmation email from FormSubmit that you must click to
+              activate delivery to that address.
+            -->
+         <form
+  class="contact-form glass reveal"
+  id="contactForm"
+  action="https://formsubmit.co/taha8450084@gmail.com"
+  method="POST"
+>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="name" class="form-label">Full Name</label>
+                  <input type="text" class="form-control" id="name" name="name" placeholder="Your name" required minlength="2">
+                  <!-- <div class="invalid-feedback" id="nameError">Please enter your name (min. 2 characters).</div> -->
+                </div>
+                <div class="col-md-6">
+                  <label for="email" class="form-label">Email Address</label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="you@example.com" required>
+                  <div class="invalid-feedback" id="emailError">Please enter a valid email address.</div>
+                </div>
+                <div class="col-12">
+                  <label for="subject" class="form-label">Subject</label>
+                  <input type="text" class="form-control" id="subject" name="subject" placeholder="Internship opportunity" required minlength="3">
+                  <!-- <div class="invalid-feedback" id="subjectError">Please enter a subject (min. 3 characters).</div> -->
+                </div>
+                <div class="col-12">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" id="message" name="message" rows="5" placeholder="Tell me a bit about the role or project..." required minlength="10"></textarea>
+                  <!-- <div class="invalid-feedback" id="messageError">Please write a short message (min. 10 characters).</div> -->
+                </div>
+
+                <!-- FormSubmit configuration (hidden fields) -->
+     <input type="hidden" name="_subject" value="New message from your portfolio">
+<input type="hidden" name="_template" value="table">
+<input type="hidden" name="_captcha" value="false">
+                <!-- Honeypot spam trap: real visitors never fill this in -->
+                <input type="text" name="_honey" class="honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+                <div class="col-12">
+                  <button type="submit" class="btn btn-gradient btn-lg w-100" id="submitBtn">
+                    <span class="btn-label"><i class="bi bi-send-fill"></i> Send Message</span>
+                  </button>
+                </div>
+                <div class="col-12">
+                  <div class="form-success d-none" id="formSuccess" role="status">
+                    <i class="bi bi-check-circle-fill"></i> Thanks! Your message has been sent &mdash; I'll get back to you soon.
+                  </div>
+                  <div class="form-error d-none" id="formError" role="alert">
+                    <i class="bi bi-exclamation-triangle-fill"></i>
+                    <span id="formErrorText">Something went wrong and your message wasn't sent. Please try again.</span>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row gy-4 align-items-start">
+        <div class="col-lg-4">
+          <a href="#home" class="brand-mark footer-brand">MT<span class="brand-dot">.</span></a>
+          <p class="footer-text">Frontend Developer &amp; Software Engineering Student, building clean and
+            responsive web experiences &mdash; one project at a time.</p>
+          <div class="hero-socials">
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/muhammad-taha-5043073a6?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile"><i class="bi bi-linkedin"></i></a>
+            <a href="mailto:taha8450084@gmail.com" aria-label="Send an email"><i class="bi bi-envelope"></i></a>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h4 class="footer-heading">Explore</h4>
+          <ul class="footer-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h4 class="footer-heading">More</h4>
+          <ul class="footer-links">
+            <li><a href="#education">Education</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <h4 class="footer-heading">Status</h4>
+          <div class="status-chip">
+            <span class="status-dot"></span> Available for Internships &amp; Junior Roles
+          </div>
+        </div>
+      </div>
+      <hr class="footer-divider">
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> Muhammad Taha. All rights reserved.</p>
+        <p>Designed &amp; built with  by Muhammad Taha</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ BACK TO TOP ============ -->
+  <button id="backToTop" aria-label="Back to top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="ap.js"></script>
+</body>
+</html>
